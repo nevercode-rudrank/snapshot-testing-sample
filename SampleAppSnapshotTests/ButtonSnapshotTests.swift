@@ -20,7 +20,7 @@ class ButtonSnapshotTests: XCTestCase {
         button.setTitle("Login", for: .normal)
 
         let result = verifySnapshot(matching: button,
-                                    as: .image,
+                                    as: .image(subpixelThreshold: 1),
                                     named: "Default",
                                     testName: "Button")
                 
@@ -33,7 +33,7 @@ class ButtonSnapshotTests: XCTestCase {
         button.isLoading = true
         
         let result = verifySnapshot(matching: button,
-                                    as: .image,
+                                    as: .image(subpixelThreshold: 1),
                                     named: "Loading",
                                     testName: "Button")
         

@@ -24,7 +24,7 @@ class LoginViewControllerSnapshotTests: XCTestCase {
         
         let results = devices.map { device in
             verifySnapshot(matching: viewController,
-                           as: .image(on: device.value),
+                           as: .image(on: device.value, subpixelThreshold: 1),
                            named: "\(named)-\(device.key)",
                            testName: "LoginViewController")
         }

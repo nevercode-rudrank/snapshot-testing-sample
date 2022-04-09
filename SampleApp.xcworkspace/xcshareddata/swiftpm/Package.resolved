@@ -3,10 +3,10 @@
     {
       "identity" : "swift-snapshot-testing",
       "kind" : "remoteSourceControl",
-      "location" : "https://github.com/pointfreeco/swift-snapshot-testing.git",
+      "location" : "https://github.com/pimms/swift-snapshot-testing",
       "state" : {
-        "branch" : "main",
-        "revision" : "88f6e2c0afe04221fcfb1601a2ecaad83115a05f"
+        "branch" : "optimization",
+        "revision" : "0efeef44df913fe60ea868f037f271ac927a8e8c"
       }
     }
   ],

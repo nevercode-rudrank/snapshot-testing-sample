@@ -10,6 +10,8 @@ import XCTest
 import SnapshotTesting
 @testable import SampleApp
 
+let subpixelThreshold: UInt8 = 3
+
 class LoginViewControllerSnapshotTests: XCTestCase {
     
     func test_loginViewControllerDefaultState() {
@@ -24,7 +26,7 @@ class LoginViewControllerSnapshotTests: XCTestCase {
         
         let results = devices.map { device in
             verifySnapshot(matching: viewController,
-                           as: .image(on: device.value, subpixelThreshold: 1),
+                           as: .image(on: device.value, subpixelThreshold: subpixelThreshold),
                            named: "\(named)-\(device.key)",
                            testName: "LoginViewController")
         }

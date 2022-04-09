@@ -13,9 +13,6 @@
 		A24B0D96251402B60099EC98 /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B0D95251402B60099EC98 /* TextField.swift */; };
 		A24B0D98251403290099EC98 /* LoginViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B0D97251403290099EC98 /* LoginViewController2.swift */; };
 		A24B0D9A251404DC0099EC98 /* LoginViewControllerSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24B0D99251404DC0099EC98 /* LoginViewControllerSnapshotTests.swift */; };
-		A24B0DA125140B0C0099EC98 /* LoginViewController.Default-iPhone8.png in Resources */ = {isa = PBXBuildFile; fileRef = A24B0D9E25140B0C0099EC98 /* LoginViewController.Default-iPhone8.png */; };
-		A24B0DA325140B0C0099EC98 /* LoginViewController.Default-iPhoneX.png in Resources */ = {isa = PBXBuildFile; fileRef = A24B0DA025140B0C0099EC98 /* LoginViewController.Default-iPhoneX.png */; };
-		A24B0DA525140B800099EC98 /* LoginViewController.Default-iPhoneSE.png in Resources */ = {isa = PBXBuildFile; fileRef = A24B0DA425140B800099EC98 /* LoginViewController.Default-iPhoneSE.png */; };
 		A2E7D3302513EB73005457B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7D32F2513EB73005457B2 /* AppDelegate.swift */; };
 		A2E7D3342513EB73005457B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7D3332513EB73005457B2 /* ViewController.swift */; };
 		A2E7D3372513EB73005457B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E7D3352513EB73005457B2 /* Main.storyboard */; };
@@ -23,8 +20,6 @@
 		A2E7D33C2513EB75005457B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2E7D33A2513EB75005457B2 /* LaunchScreen.storyboard */; };
 		A2E7D3422513EB86005457B2 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7D3412513EB86005457B2 /* Button.swift */; };
 		A2E7D3442513F105005457B2 /* ButtonSnapshotTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E7D3432513F104005457B2 /* ButtonSnapshotTests.swift */; };
-		A2E7D3492513F2D4005457B2 /* Button.Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E7D3472513F2D4005457B2 /* Button.Default.png */; };
-		A2E7D34A2513F2D4005457B2 /* Button.Loading.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E7D3482513F2D4005457B2 /* Button.Loading.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -254,11 +249,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A24B0DA125140B0C0099EC98 /* LoginViewController.Default-iPhone8.png in Resources */,
-				A24B0DA325140B0C0099EC98 /* LoginViewController.Default-iPhoneX.png in Resources */,
-				A2E7D3492513F2D4005457B2 /* Button.Default.png in Resources */,
-				A24B0DA525140B800099EC98 /* LoginViewController.Default-iPhoneSE.png in Resources */,
-				A2E7D34A2513F2D4005457B2 /* Button.Loading.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,7 +406,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -470,7 +460,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -530,6 +520,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VAF385BANM;
 				INFOPLIST_FILE = SampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -549,6 +540,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VAF385BANM;
 				INFOPLIST_FILE = SampleApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

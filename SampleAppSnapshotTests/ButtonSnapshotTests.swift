@@ -18,7 +18,7 @@ class ButtonSnapshotTests: XCTestCase {
         // # 1
         let button = Button(frame: .init(x: 0, y: 0, width: 128, height: 48))
         button.setTitle("Login", for: .normal)
-        
+
         let result = verifySnapshot(matching: button,
                                     as: .image,
                                     named: "Default",

@@ -25,6 +25,8 @@ class Button: UIButton {
 
         backgroundColor = .systemBlue
         layer.cornerRadius = 8
+        layer.shadowRadius = 15
+        layer.shadowOpacity = 0.5
         contentEdgeInsets = .init(top: 8, left: 16, bottom: 8, right: 16)
         
         loadingView.color = .white

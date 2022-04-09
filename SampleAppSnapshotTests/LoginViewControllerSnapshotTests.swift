@@ -10,7 +10,7 @@ import XCTest
 import SnapshotTesting
 @testable import SampleApp
 
-let subpixelThreshold: UInt8 = 3
+let subpixelThreshold: UInt8 = 5
 
 class LoginViewControllerSnapshotTests: XCTestCase {
     

@@ -10,7 +10,7 @@ import XCTest
 import SnapshotTesting
 @testable import SampleApp
 
-let subpixelThreshold: UInt8 = 0
+let subpixelThreshold: UInt8 = 5
 
 class LoginViewControllerSnapshotTests: XCTestCase {
     
@@ -20,9 +20,7 @@ class LoginViewControllerSnapshotTests: XCTestCase {
     }
     
     private func verifyViewController(_ viewController: UIViewController, named: String) {
-        let devices: [String: ViewImageConfig] = ["iPhoneX": .iPhoneX,
-                                                  "iPhone8": .iPhone8,
-                                                  "iPhoneSE": .iPhoneSe]
+        let devices: [String: ViewImageConfig] = ["iPhone12": .iPhone12]
         
         let results = devices.map { device in
             verifySnapshot(matching: viewController,

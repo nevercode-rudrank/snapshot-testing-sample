@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swift-snapshot-testing",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pimms/swift-snapshot-testing",
+      "state" : {
+        "branch" : "optimization",
+        "revision" : "0efeef44df913fe60ea868f037f271ac927a8e8c"
+      }
+    }
+  ],
+  "version" : 2
+}

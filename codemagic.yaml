@@ -39,7 +39,7 @@ workflows:
     scripts:
       - name: Run iOS UI and Unit tests
         script: |
-          xcode-project run-tests \
+          arch -x86_64 xcode-project run-tests \
             --project "$XCODE_PROJECT" \
             --scheme "$XCODE_iOS_SCHEME" \
             --device "iPhone 12"

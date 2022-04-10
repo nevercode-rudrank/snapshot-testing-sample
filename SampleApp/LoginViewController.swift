@@ -23,12 +23,15 @@ class LoginViewController: UIViewController {
         
         emailLabel.text = "Email"
         passwordLabel.text = "Password"
+        passwordLabel.layer.shadowColor = .init(red: 0.8, green: 0.1, blue: 0.3, alpha: 1)
         passwordTextField.isSecureTextEntry = true
         loginButton.setTitle("Login", for: .normal)
         [emailTextField, passwordTextField].forEach {
             $0.layer.borderColor = UIColor.systemGray.cgColor
             $0.layer.borderWidth = 1
-            $0.layer.cornerRadius = 8
+            $0.layer.cornerRadius = 16
+            $0.layer.shadowRadius = 16
+            $0.layer.shadowColor = CGColor(red: 0.5, green: 0.5, blue: 0.5, alpha: 1.0)
         }
         
         let emailStackView = UIStackView(arrangedSubviews: [emailLabel, emailTextField])
